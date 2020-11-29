@@ -12,7 +12,6 @@ This research project has been realized in Thales Alenia Space site(Turin) in co
 
 ## Software  
 - ROS Melodic with the following packages:
-  - msr package
   - realsense package
   - darknet package
   - opencv package
@@ -46,5 +45,13 @@ In order to realise this solution, three main steps have occured:
 
  
 
-## The repository
-Inside this repository you will find the msr_repository that contains a ROS package and the node called "estimation_node.py": it takes the 
+## How to install it 
+Download the "msr_project" package and move it in your "catkin/src/" folder. Then re-build your ROS environment. 
+
+## How to use it 
+Launch the "device_start_complete.launch" file . It will run the required nodes with related parameters:
+- the depth camera node 
+- the darknet node
+- the pose estimation node
+The yolo output and the original image will appear on the screen while on an another terminal screen the coordinates information of the recognised objects will be published.
+![output](https://github.com/gabgen/Mars-Sample-Return/blob/main/MSR/test.PNG)
