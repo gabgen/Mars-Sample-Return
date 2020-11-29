@@ -1,0 +1,11 @@
+<launch>
+
+
+  <arg name="align_depth"       default="true"/> 
+<!-- =============================================================================== -->
+  <include file="$(find realsense2_camera)/launch/rs_rgbd.launch" >
+    <arg name="align_depth"   value="$(arg align_depth)"/>
+  </include>
+
+     <include file="/home/roxy/catkin_ws/src/darknet_ros/darknet_ros/launch/darknet_ros.launch"  />  
+</launch>										
