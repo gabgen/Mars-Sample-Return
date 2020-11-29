@@ -53,5 +53,6 @@ Launch the "device_start_complete.launch" file . It will run the required nodes 
 - the depth camera node 
 - the darknet node
 - the pose estimation node
+
 The yolo output and the original image will appear on the screen while on an another terminal screen the coordinates information of the recognised objects will be published.
 ![output](https://github.com/gabgen/Mars-Sample-Return/blob/main/MSR/test.PNG)
