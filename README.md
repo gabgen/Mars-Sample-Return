@@ -38,6 +38,7 @@ In order to realise this solution, three main steps have occured:
  YOLO versions involved :
  - YOLO v3 tiny
  - YOLO v3 tiny 3l ( it contains a third detection layer)
+ 
  The versions have been modified for the specific purpose. The re-training has been realized on Google Colab platform thanks to AlexeyAB's repository.
  
  #### 3. Estimation node phase 
