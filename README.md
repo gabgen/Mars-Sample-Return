@@ -36,8 +36,8 @@ In order to realise this solution, three main steps have occured:
  #### 2. Re-training phase 
  It has been occured a re-training phase of the popular YOLO algorithm aimed to teach Yolo how to recognise the sample.
  YOLO versions involved :
- -YOLO v3 tiny
- -YOLO v3 tiny 3l ( it contains a third detection layer)
+ - YOLO v3 tiny
+ - YOLO v3 tiny 3l ( it contains a third detection layer)
  The versions have been modified for the specific purpose. The re-training has been realized on Google Colab platform thanks to AlexeyAB's repository.
  
  #### 3. Estimation node phase 
