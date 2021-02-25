@@ -1,5 +1,5 @@
 # Mars-Sample-Return
-Ros repository of a possible autonomous recognition stoftware for the Mars Sample Return's Fetch Rover.
+Ros repository of an autonomous recognition software for the Mars Sample Return's Fetch Rover.
 ![Fetch Rover](/MSR/logo.png)
 
 ## What Mars Sample Return is ?
